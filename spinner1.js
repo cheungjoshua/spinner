@@ -1,5 +1,7 @@
 // process.stdout.write("hello from spinner1.js... \rheyyy\n");
 
+const spinner = ["|", "/", "-", "\\", "|", "/", "-", "\\", "|"];
+
 setTimeout(() => {
   process.stdout.write("\r|   ");
 }, 100);
